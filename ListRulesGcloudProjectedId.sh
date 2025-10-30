@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ID do projeto fixo
-project_id="detraninfosiga-prod"
+project_id=""
 
 echo "Listando todas as regras de firewall no projeto: $project_id"
 gcloud compute firewall-rules list \

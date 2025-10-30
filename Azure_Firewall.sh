@@ -1,8 +1,8 @@
 #!/bin/sh
 ########## Preecher os campos abaixo com os dados do recurso. ##################
-hostname=9990173-Firewall-ER
-subscription=d5f3a927-3b87-4f89-9553-7e2f8e198670
-name=9990173-hub
+hostname=""
+subscription=""
+name=""
 type=Microsoft.Network/azureFirewalls
 ids=/subscriptions/$subscription/resourceGroups/$name/providers/$type/$hostname
 mkdir -p /opt/backup/azure/resources/$hostname

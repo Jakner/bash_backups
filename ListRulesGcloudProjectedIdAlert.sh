@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Projeto alvo
-project_id="detraninfosiga-prod"
+project_id=""
 
 # Portas de alto risco
 critical_ports=("22" "3389" "445")

@@ -20,11 +20,11 @@ if [ ! -f "$log_dir/$log_file" ]; then
 fi
 
 # Configurações de e-mail
-SMTP_SERVER="smtprelay01.prodesp.sp.gov.br"
-SMTP_PORT="25"
-SENDER="admseguranca@sp.gov.br"
-RECIPIENT="admseguranca@sp.gov.br"
-SUBJECT="Relatório de Backup Diário"
+SMTP_SERVER=""
+SMTP_PORT=""
+SENDER=""
+RECIPIENT=""
+SUBJECT=""
 
 # Data atual no formato dd-mm-yyyy
 current_date=$(date "+%d-%m-%Y")

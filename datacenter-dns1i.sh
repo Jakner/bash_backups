@@ -12,7 +12,7 @@
 
 HOSTS="dns1i;root@10.1.5.35;/home/replicaacl/"
 
-KEY_PATH="$HOME/.ssh/dns-prodesp"
+KEY_PATH="$HOME/.ssh/dns"
 LOG_FILE="/var/log/daily-backup.log"
 DATE=$(date "+%d-%m-%Y")
 

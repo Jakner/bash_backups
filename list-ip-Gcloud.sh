@@ -4,7 +4,7 @@
 projects=$(gcloud projects list --format="value(projectId)" --quiet)
 
 # IP que você deseja encontrar
-ip_address="10.153.44.0/23" # Substitua pelo IP desejado
+ip_address="" # Substitua pelo IP desejado
 
 for project in $projects; do
   echo "Checking IP associations in project: $project"

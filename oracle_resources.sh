@@ -1,8 +1,8 @@
 #!/bin/sh
 ########## Preecher os campos abaixo com os dados do recurso. ##################
-hostname=VCN-EXAGEN
-OCID=ocid1.vcn.oc1.sa-saopaulo-1.amaaaaaaqafmunaae54o2mvntqe7t2q7ohgaryve274hzhkipygjcxradelq
-OCID1=ocid1.compartment.oc1..aaaaaaaaj7czxcc2rkfd7nuwyafv2q57ufatkxtwti4bbqqjvuzeeidqgyaa 
+hostname=""
+OCID=""
+OCID1="" 
 mkdir -p /opt/backup/oracle/resources/$hostname
 ################################################################################
 #diretorio de backup
